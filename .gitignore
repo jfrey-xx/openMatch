@@ -1,2 +1,6 @@
-# data folder, not for git
+# data folder and lib binaries, not for git
 data/
+lib/
+# various leftovers
+*.pyc
+.directory
