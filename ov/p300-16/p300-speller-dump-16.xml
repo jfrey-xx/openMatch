@@ -1058,7 +1058,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].gdf</DefaultValue>
-					<Value>${Player_ScenarioDirectory}/../../data/gtec_p300_record-[$core{date}-$core{time}].gdf</Value>
+					<Value>${Player_ScenarioDirectory}/../../data/gtec_p300-16_record-[$core{date}-$core{time}].gdf</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -1124,7 +1124,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].gdf</DefaultValue>
-					<Value>${Player_ScenarioDirectory}/../../data/openbci_p300_record-[$core{date}-$core{time}].gdf</Value>
+					<Value>${Player_ScenarioDirectory}/../../data/openbci_p300-16_record-[$core{date}-$core{time}].gdf</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -1883,7 +1883,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename final figure</Name>
 					<DefaultValue></DefaultValue>
-					<Value>${Player_ScenarioDirectory}/../../data/p300_gtec_$core{date}_$core{time}.png</Value>
+					<Value>${Player_ScenarioDirectory}/../../data/p300-16_gtec_$core{date}_$core{time}.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -1948,6 +1948,10 @@
 					<Value>(0x00000000, 0x03b84dba)</Value>
 				</Attribute>
 				<Attribute>
+					<Identifier>(0xc67a01dc, 0x28ce06c1)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
 					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
 					<Value>3</Value>
 				</Attribute>
@@ -1988,7 +1992,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename final figure</Name>
 					<DefaultValue></DefaultValue>
-					<Value>${Player_ScenarioDirectory}/../../data/p300_openbci_$core{date}_$core{time}.png</Value>
+					<Value>${Player_ScenarioDirectory}/../../data/p300-16_openbci_$core{date}_$core{time}.png</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -2064,7 +2068,7 @@
 		</Box>
 		<Box>
 			<Identifier>(0x4758fe9d, 0x570fe451)</Identifier>
-			<Name>C3;Cz;C4;P3;Pz;P4;O1;O2</Name>
+			<Name>16chans</Name>
 			<AlgorithmClassIdentifier>(0x361722e8, 0x311574e8)</AlgorithmClassIdentifier>
 			<Inputs>
 				<Input>
@@ -2132,7 +2136,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xad100179, 0xa3c984ab)</Identifier>
-					<Value>158</Value>
+					<Value>87</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
@@ -2158,7 +2162,7 @@
 		</Box>
 		<Box>
 			<Identifier>(0x4758fe9d, 0x570fe452)</Identifier>
-			<Name>C3;Cz;C4;P3;Pz;P4;O1;O2</Name>
+			<Name>16chans</Name>
 			<AlgorithmClassIdentifier>(0x361722e8, 0x311574e8)</AlgorithmClassIdentifier>
 			<Inputs>
 				<Input>
@@ -2226,7 +2230,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xad100179, 0xa3c984ab)</Identifier>
-					<Value>158</Value>
+					<Value>87</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
@@ -3079,10 +3083,6 @@
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
 					<Value>(0x00000000, 0x001d1915)</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xc67a01dc, 0x28ce06c1)</Identifier>
-					<Value></Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
